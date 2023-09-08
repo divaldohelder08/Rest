@@ -1,0 +1,15 @@
+/* src/styles/tailwind.css */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer {
+  *{
+    @apply text-white
+  }
+  .error {
+    @apply !border-red-500 !text-red-500;
+  }
+}
+
